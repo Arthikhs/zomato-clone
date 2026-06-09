@@ -6,12 +6,10 @@ import axios from "axios";
 import { restaurantService } from "../main";
 import UserOrderMap from "../components/UserOrderMap";
 import toast from "react-hot-toast";
-import { useAppData } from "../context/AppContext";
 
 const OrderPage = () => {
   const { id } = useParams();
   const { socket } = useSocket();
-  const { user } = useAppData();
 
   const [order, setOrder] = useState<IOrder | null>(null);
   const [loading, setLoading] = useState(true);
