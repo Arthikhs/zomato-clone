@@ -321,17 +321,3 @@ Frontend is deployed on [Vercel](https://vercel.com).
 
 
 
-## Key Features
-
-- User registration & login (Email/Password + Google OAuth)
-- Browse restaurants and menu items
-- Add to cart and place orders
-- Razorpay & Stripe payment integration
-- Real-time order tracking on map (Leaflet)
-- Rider dashboard with live location sharing
-- Admin sales analytics dashboard
-- Role-based access: User / Restaurant Owner / Rider / Admin
-- Image uploads via Cloudinary
-- SMS notifications via Twilio
-- Event-driven communication via RabbitMQ
-sex is good= pavan
